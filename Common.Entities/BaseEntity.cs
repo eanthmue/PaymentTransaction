@@ -6,7 +6,8 @@ namespace Common.Entities
 {
     public abstract class BaseEntity
     {
-        public DateTime CreatedDate { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        //for record tracking 
+        //public DateTime CreatedDate { get; set; }
+        //public DateTime ModifiedDate { get; set; }
     }
 }
